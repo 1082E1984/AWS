@@ -6,6 +6,7 @@ and next will be loading CLI proram for AWS on my windows machine, so I can run 
 also, I am going to list all my hardware in this file
 3-31-2019 1:32pm
 loaded up a image to S3-- and  found the syntax so you can put the string in a web browser and see the pic anywhere in the world
+https://s3.amazonaws.com/bucketname/pathtofile 
 had problems to get public access, and had to write a policy (googled it, and tailored it to my account specifics)
 here is the code I used
 
