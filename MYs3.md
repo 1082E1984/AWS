@@ -52,3 +52,18 @@ ping instance--run code on user data at ec2 startup--- igw--nacls-security group
 #
 #
 #
+this is the code I have been using for the user data on an ec2 startup
+#
+#
+#!/bin/bash
+  yum update -y
+  yum install -y httpd
+  systemctl start httpd.service
+  systemctl enable httpd.service
+  EC2_AVAIL_ZONE=$(curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone)
+  echo "<h1>Hello World from $(hostname -f) in AZ $EC2_AVAIL_ZONE </h1>" > /var/www/html/index.html
+  ##
+  
+  updates patches to linux, and starts apache, and reads metadata from 169.254.169.254 which is amazons metadata endpoint on instances.
+  #
+  
