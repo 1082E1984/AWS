@@ -41,4 +41,14 @@ def lambda_handler(event, context):
     ec2.stop_instances(InstanceIds=instances)
     
     
-    
+    #
+#
+#
+#
+#
+july 7th 
+ping instance--run code on user data at ec2 startup--- igw--nacls-security groups--  ssh and key pairs--- putty 3 items --- user data--private key--host name---
+
+#
+#
+#
