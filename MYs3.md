@@ -66,4 +66,10 @@ this is the code I have been using for the user data on an ec2 startup
   
   updates patches to linux, and starts apache, and reads metadata from 169.254.169.254 which is amazons metadata endpoint on instances.
   #
-  
+  #
+#
+#
+https://github.com/jlevy/the-art-of-command-line
+
+# super info on the linux command line on that link above   july 7th 2019
+
