@@ -73,3 +73,19 @@ https://github.com/jlevy/the-art-of-command-line
 
 # super info on the linux command line on that link above   july 7th 2019
 
+#
+#
+#
+#
+remote servier provided by matt kirk===  username uname -a   and hostname hostname -i and -d
+#
+#
+#
+what version and distro am I running on this gnu/linux machine--- dmsg | head -1
+#
+#
+#
+machine is running ubuntu 4.15.18 or 4.15.0.-60.67-generic 
+uname -a will also display gnu/unix info, and username and ip address
+#
+#
